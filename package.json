@@ -1,0 +1,28 @@
+{
+  "name": "ethereum-autosend",
+  "version": "0.0.1",
+  "description": "node.js application to manage ethereum account, including auto send balance from one account to another",
+  "license": "GPLv2",
+  "bin": "server.js",
+  "url":"https://pool.ethernet.id",
+  "config" : {
+    "serverPort" : "8080"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/uraymeiviar/ethereum-autosend.git"
+  },
+  "dependencies" : {
+    "express": "*",
+    "socket.io": "*",
+    "async":"*",
+    "compression" : "*",
+    "chalk" : "*",
+    "request" : "*",
+    "config" : "*",
+    "body-parser" : "*",
+    "moment" : "*",
+    "bn.js" : "*",
+    "prettyjson" : "*"
+  }
+}
